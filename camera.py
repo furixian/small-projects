@@ -70,7 +70,7 @@ def ShowFeed():
         # Calling the function after 10 milliseconds
         root.cameraLabel.after(10, ShowFeed)
     else:
-        # Configuring the label to display the frame
+        # Configuring the label to display the fram
         root.cameraLabel.configure(image='')
 
 def destBrowse():
